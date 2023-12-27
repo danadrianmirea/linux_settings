@@ -9,13 +9,13 @@ set printoptions=paper:letter
 set ruler
 set suffixes=.bak,~,.swp,.o,.info,.aux,.log,.dvi,.bbl,.blg,.brf,.cb,.ind,.idx,.ilg,.inx,.out,.toc
 
+nmap <F1> :q
 nmap <F2> :w!
 nmap <F3> :cs find t 
 nmap <F4> :cs find f 
 nmap <F5> :cope<CR>
 nmap <F6> :cn<CR>
 nmap <F7> :cp<CR>
-nmap <F9> :q
 
 
 

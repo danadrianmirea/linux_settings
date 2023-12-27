@@ -26,10 +26,20 @@ if [ -d "$HOME/.local/bin" ] ; then
     PATH="$HOME/.local/bin:$PATH"
 fi
 
-echo "ADI: running my stuff"
+echo "ADI: running my profile"
+setxkbmap -layout us
+xmodmap ~/homerowmapper_linux
 alias vi=nvim
 alias vim=nvim
 alias sai='sudo apt install -y'
-setxkbmap -layout us
-xmodmap ~/homerowmapper.txt
 
+alias v='nvim'
+alias c='cd'
+alias d='cd ..'
+alias x='clear'
+alias l='ls'
+alias gs='git status'
+alias gb='git branch'
+alias gc='git clone'
+
+export PS1='\e[1;34m\u \w> \e[m'
