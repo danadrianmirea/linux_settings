@@ -1,4 +1,5 @@
 set ts=2
+set number
 set shiftwidth=2
 set expandtab 
 set backspace=indent,eol,start
